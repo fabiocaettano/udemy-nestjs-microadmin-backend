@@ -28,7 +28,7 @@ $ nvm use v14.17.0
 ```bash
 $ npm install @nestjs/microservices
 $ npm install amqplib amqp-connection-manager
-$ npm install nestjs/mongoose mongoose
+$ npm install @nestjs/mongoose mongoose
 $ npm install --save-dev @types/mongoose
 ```
 
