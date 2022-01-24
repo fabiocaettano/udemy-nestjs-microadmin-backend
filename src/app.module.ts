@@ -8,8 +8,6 @@ import { JogadorSchema } from './interfaces/jogadores/jogador.schema'
 
 require('dotenv').config()
 
-console.log(process.env.DB_URI)
-
 @Module({
   imports: [
     MongooseModule.forRoot(process.env.DB_URI,{useNewUrlParser: true}),    
